@@ -1,0 +1,108 @@
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>NSHD</title>
+</head>
+<body>
+
+
+<div id="container">
+
+  <div class="navbar">
+    <div id="Bakgrundd"></div>
+  <ul>
+  <li id="hemm">
+      <a href="hem.html">Hem</a>
+      </li>
+      <li>
+      <a>NSHD</a>
+      <ul>
+          <li><a id="omOss" href="NSHD.html">Om NSHD</a></li>
+      </ul>
+      </li>
+      <li>
+        <a>Router</a>
+        <ul>
+          <li><a id="" href="installation.html">Installation</a></li>
+          <li><a id="" href="Sakerhet.html">Säkerhet</a></li>
+        </ul>
+      </li>
+    </ul>
+
+      <div id="search">
+
+      <input id="sbox" type="text" placeholder="Sök..." maxlength="25" >
+          <input id="sbut" type="submit" value="&#128270">
+
+      </div>
+
+
+  </div>
+
+
+    <div id="header">
+    <img src="NSHD1.jpg"  id="NSHD">
+
+    </div>
+
+
+
+
+    <div class="bildspelsContainer">
+      <div class="bildspel Fade">
+        <div class="bildpselsNummer">1 / 3</div>
+        <img src="wps.jpg" style="width: 100%">
+      </div>
+
+      <div class="bildspel Fade">
+        <div class="bildpselsNummer">2 / 3</div>
+        <img src="wpa2.jpg" alt="Bild2" style="width: 100%">
+      </div>
+
+      <div class="bildspel Fade">
+        <div class="bildpselsNummer">3 / 3</div>
+        <img src="vpn.jpg" alt="Bild3" style="width: 100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+<div class="cont" id="content2">
+
+    <div class="sake" id="WPS">
+      <h1>WPS</h1>
+  <div class="produkter"><p>Det enklaste sättet att sätta ett lösenord på en router är att använda sig av metod som kallas för WPS. WPS:en kan automatiskt skapa ett nätverksnamn och ett säkert lösenord med WPA2. För att WPS ska kunna användas så måste routern stöd för WPS. Dock så anses inte WPS vara den säkraste metoden eftersom den är väldigt känslig mot en brute force-attack.</p>
+
+      </div>
+    </div>
+
+    <div class="sake" id="WPA2">
+        <h1>WPA2</h1>
+    <div class="produkter"><p>WPA2 är den nuvarande säkraste metoden för att skapa ett lösenord på ditt nätverk. Lösenordet krypteras med hjälp av en metod som kallas för Advanced Encryption Standard eller AEP förkortat. Denna metod är uppföljaren till WEP-metoden vilken använde sig av en TKIP-krpytering som var mycket mindre säker. Dock så har WPA2-krypteringen blivit lite mindre pålitlig eftersom man kan avläsa kryptering med hjälp av en metod som kallas för "Krack". Det är dock fortfarande den vanligaste metoden för säkerhet på hemmanätverk. </p>
+
+        </div>
+      </div>
+
+      <div class="sake" id="VPN">
+          <h1>VPN</h1>
+      <div class="produkter"><p>En VPN eller Virtual Private Network är en väldigt bra metod att använda sig av ifall man exempelvis arbetar åt ett företag på avstånd. Man skapar en krypterad tunnel via sin enhet till nätverket. Det spelar ingen roll var du befinner dig på planeten bara du har en internetuppkoppling. Du behöver alltså inte vara på stället där nätverket finns för att kunna utnyttja det. </p>
+
+          </div>
+        </div>
+
+    </div>
+
+    <div id="footer">
+    <p>©Linus Larsson TE3B</p>
+    </div>
+
+    </div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="JS.js"></script>
+    </body>
+</html>
