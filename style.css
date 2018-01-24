@@ -217,15 +217,14 @@ body{
 }#VPN{
   border-radius: 0px 10px 10px 0px;
   margin-left: 2px;
-  margin-right: 5px;
   float: left;
     z-index: 0;
 }
 .sake{
   text-align: center;
   margin-top: 3px;
-  max-width: 32.72%;
-  min-width: 32%;
+  max-width: 32.70%;
+  min-width: 20%;
   background-color: #f2f2f2;
   height: 550px;
   position: relative;
@@ -366,10 +365,8 @@ body{
 @media screen and (max-width: 1000px){
   body{
       margin: 0;
-      top: 0px;
       background-color: #ededed;
       font-family: "Arial", "Times New Roman", sans-serif;
-      height: 2000px;
   }
   #container{
       width: 100%;
@@ -380,14 +377,13 @@ body{
   }
   #header{
       padding-top: 20px;
-      height: 103px;
+      height: 123px;
       width: 100%;
       max-width:100%;
       min-width: 100%;
       background-color: white;
       color: black;
-      position: static;
-      margin-top: -10px;
+      position: relative;
       top: -10px;
       z-index: 0;
 
@@ -402,19 +398,7 @@ body{
       left: 21%;
 
   }
-  #sbox{
-      border: 0px solid white;
-      border-left: 1px solid black;
-      padding: 1.5%;
-      height: 30px;
-      width: 305px;
-      max-width: 60%;
-      position: relative;
-      top: -1px;
-      right: -67px;
-
-
-}
+  
 .navbar li ul{
     visibility: visible;
 }
