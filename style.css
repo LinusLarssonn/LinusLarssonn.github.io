@@ -165,7 +165,7 @@ body{
   height: 310px;
 }
 #content2{
-  height: 510px;
+  height: 560px;
 }
 #content3{
   float: none;
@@ -363,7 +363,7 @@ body{
   to{opacity: 1}
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 700px){
   body{
       margin: 0;
       position: relative;
