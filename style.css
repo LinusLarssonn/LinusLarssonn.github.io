@@ -26,13 +26,11 @@ body{
 
 }
 #NSHD{
-    width: 800px;
+    width: 850px;
     height: 100px;
-    max-width: 60%;
-    min-width: 60%;
     max-height: 80%;
-    position: relative;
-    left: 21%;
+    display: block;
+    margin: 0 auto;
 
 }
 #Bakgrundd{
