@@ -165,7 +165,7 @@ body{
   height: 310px;
 }
 #content2{
-  height: 410px;
+  height: 510px;
 }
 #content3{
   float: none;
@@ -224,12 +224,10 @@ body{
 .sake{
   text-align: center;
   margin-top: 3px;
-
-  width: 32.90%;
-  max-width: 32.9%;
+  max-width: 32.72%;
   min-width: 32%;
   background-color: #f2f2f2;
-  height: 400px;
+  height: 500px;
   position: relative;
 }
 .sake p{
