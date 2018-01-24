@@ -170,7 +170,7 @@ body{
 #content3{
   float: none;
   margin: 0 auto;
-  height: 610px;
+  height: 670px;
   width: 50%;
   position: relative;
   text-align: center;
@@ -180,7 +180,7 @@ body{
   margin-left: 1%;
   margin-top: 1%;
   background-color: #f2f2f2;
-  height: 600px;
+  height: 660px;
   float: left;
 }#content3 p{
   font-size: 20px;
@@ -227,7 +227,7 @@ body{
   max-width: 32.72%;
   min-width: 32%;
   background-color: #f2f2f2;
-  height: 500px;
+  height: 550px;
   position: relative;
 }
 .sake p{
@@ -363,10 +363,9 @@ body{
   to{opacity: 1}
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1000px){
   body{
       margin: 0;
-      position: relative;
       top: 0px;
       background-color: #ededed;
       font-family: "Arial", "Times New Roman", sans-serif;
@@ -377,7 +376,6 @@ body{
       height: 100%;
       margin: 0 auto;
       background-color: transparent;
-      position: relative;
 
   }
   #header{
